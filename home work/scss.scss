@@ -1,0 +1,13 @@
+$first-option: red;
+$second-option: yellow;
+
+@mixin transform {
+ height: 100px;
+ width: 100px;
+ border: 1px solid black;
+ background-color: red;
+}
+
+.sass-block {
+    @include transform()
+}
